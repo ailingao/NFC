@@ -1,0 +1,24 @@
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+.top{background:#000; color:#ffffff;height:30px; line-height:30px; }
+.top .top-text{text-indent:20px;line-height:30px;}
+.top .top-login{margin-right:20px; }
+.top .top-login a{color:#ffffff;font-size:14px;}
+.top .top-login span{margin:0 10px;}
+
+.border{border:1px solid #000;}
+.content-box{border:1px solid #000;}
+
+
